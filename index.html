@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lernantino // Web Developer</title>
+  <title>Heil Park // Portfolio</title>
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
@@ -12,32 +12,75 @@
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <h1>Heil Park</h1>
     <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
     <div>
-      <h2>Cool subtitle here!</h2>
+      <h2>My Portfolio</h2>
     </div>
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <section class="page-section row" id="about">
+      <div class="flex-left">
+        <h2>About Me</h2>
+      </div>
+      <section class="flex-right">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Condimentum lacinia quis vel eros. Tristique senectus et netus et malesuada fames. Odio aenean sed adipiscing diam donec adipiscing tristique. 
+          Viverra ipsum nunc aliquet bibendum enim. Nec feugiat in fermentum posuere urna. Nisl nisi scelerisque eu ultrices. Viverra vitae congue eu consequat ac felis donec. 
+          Ridiculus mus mauris vitae ultricies. In eu mi bibendum neque egestas congue quisque. Dolor sit amet consectetur adipiscing elit ut aliquam. 
+          Morbi tincidunt ornare massa eget egestas.
+        </p>
+      </section>
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+    <section class="page-section row" id="work">     
+      <div class="flex-left">
+        <h2>Work</h2>
+      </div>
+      <section class="flex-right" id="categoryGrid">
+        <div id="proj1" class="categoryGridArea code-card">
+          <!-- <a href="google.com"></a>  -->
+          <div class="heading">Proj1</div>
+        </div>
+        <div id="proj2" class="categoryGridArea code-card">
+          <div class="heading">Proj2</div>
+        </div>
+        <div id="proj3" class="categoryGridArea code-card">
+          <div class="heading">Proj3</div>
+        </div>
+        <div id="proj4" class="categoryGridArea code-card">
+          <div class="heading">Proj4</div>
+        </div>
+        <div id="proj5" class="categoryGridArea code-card">
+          <div class="heading">Proj5</div>
+        </div>
+      </section>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section class="page-section row">
+      <div class="flex-left">
+        <h2>Contact Me</h2> 
+      </div>
+      <div class="flex-right" id="contact">
+        <a href="#contact">Contact Me</a>
+        <a href="#contact">+55-5555</a>
+        <a href="#contact">email@email.com</a>
+        <a href="#contact">email@email.com</a>
+      </div>
+      
     </section>
   </main>
 </body>
